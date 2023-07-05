@@ -1,0 +1,67 @@
+.form-search-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .form-filters-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    row-gap: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border-radius: 6px;
+    border: 2px solid #000000;
+    margin-right: 5px;
+    font-size: 16px;
+    color: black;
+    width: 80%;
+  }
+
+  input[type="text"]:hover, input[type="text"]:focus {
+    outline: none;
+  }
+
+  
+  
+  label {
+    margin-right: 10px;
+  }
+  
+
+  option {
+    color: black;
+  }
+
+  select {
+    padding: 8px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: 2px solid #040404;
+    color: black;
+  }
+
+  .form-search-container {
+    justify-content: center;
+  }
+
+  .form-search-button {
+    padding: 8px 14px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+  }
+
+  

@@ -1,0 +1,83 @@
+.App-number-of-results {
+    text-align: center;
+  }
+  .App-header-text {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    
+  }
+
+  .Header {
+    
+  }
+
+  
+
+  .App-search-form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .container {
+    width: auto; /* задайте фиксированную ширину контейнера */
+    height: 280px; /* задайте фиксированную высоту контейнера */
+    overflow: hidden; /* скрывает все, что выходит за границы контейнера */
+  }
+
+  .Search-form {
+    margin-bottom: 20px;
+    width: 800px;
+    height: 50px;
+    justify-content: center;
+    
+    
+
+  }
+
+  .Select-form {
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+  }
+
+  .Sorting-by-form {
+    width: 500px;
+    
+  }
+
+  button {
+    padding: 8px 14px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+  }
+
+  input[type="text"] {
+    padding: 8px;
+    border-radius: 6px;
+    border: 2px solid #000000;
+    margin-right: 10px;
+    font-size: 16px;
+    color: black;
+    width: 80%;
+  }
+
+  select {
+    padding: 8px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 50px;
+    border-radius: 6px;
+    border: 2px solid #040404;
+    color: black;
+  }

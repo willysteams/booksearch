@@ -1,0 +1,17 @@
+.home-load-more-container {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-load-more-button {
+    width: 100px;
+  }
+
+  .home-total-results {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 500;
+  }

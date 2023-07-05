@@ -1,0 +1,44 @@
+.about-group {
+    width: 1400px;
+    margin: 30px auto;
+    display: flex;
+    column-gap: 30px;
+  }
+
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 100%;
+  }
+
+  .about-image {
+    width: auto;
+    height: 500px;
+    border-radius: 4px;
+  }
+
+  .about-image-error {
+    width: 400px;
+    height: 500px;
+    margin: 30px auto;
+    background-color: #252525;
+    text-align: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-top: 250px;
+  }
+
+  .about-info-category, .about-info-author {
+    font-size: 20px;
+  }
+
+  .about-info-title {
+    font-weight: 500;
+    font-size: 50px;
+  }
+
+  .about-info-description {
+    width: 100%;
+    height: 100%;
+  }
